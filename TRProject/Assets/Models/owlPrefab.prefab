@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4655780478795124}
   - component: {fileID: 65461272885263206}
+  - component: {fileID: 114633048807590846}
   m_Layer: 0
   m_Name: owlPrefab
   m_TagString: Untagged
@@ -124,3 +125,14 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4049435, y: 0.5020504, z: 0.2511557}
   m_Center: {x: -0.0054212064, y: -0.024757147, z: -0.0142186135}
+--- !u!114 &114633048807590846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1663594767349410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b8bc2d7ff9bf34582195ecc217fe2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

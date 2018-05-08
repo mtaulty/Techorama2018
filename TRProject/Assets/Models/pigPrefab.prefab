@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4541084735152064}
   - component: {fileID: 65302438337208690}
+  - component: {fileID: 114140617294676774}
   m_Layer: 0
   m_Name: pigPrefab
   m_TagString: Untagged
@@ -124,3 +125,14 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.40130937, y: 0.42623818, z: 0.68307817}
   m_Center: {x: 0.00035280734, y: -0.034817636, z: 0.026706874}
+--- !u!114 &114140617294676774
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1607309867263402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b8bc2d7ff9bf34582195ecc217fe2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
