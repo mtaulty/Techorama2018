@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4541084735152064}
   - component: {fileID: 65302438337208690}
   - component: {fileID: 114140617294676774}
+  - component: {fileID: 114296693836362344}
   m_Layer: 0
   m_Name: pigPrefab
   m_TagString: Untagged
@@ -136,3 +137,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7b8bc2d7ff9bf34582195ecc217fe2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114296693836362344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1607309867263402}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb034688bcf84b4bb52b3a3310868c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HostTransform: {fileID: 0}
+  boundingBoxPrefab: {fileID: 114030465538688920, guid: 865a8ded6c47efd4285f04f3aebe99e9,
+    type: 2}
+  ManipulationMode: 4
+  ConstraintOnRotation: 0
+  OneHandMovement: 1

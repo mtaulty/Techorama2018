@@ -22,6 +22,8 @@ public class InteractionHandler : MonoBehaviour, IFocusable, IInputClickHandler
         {
             this.waitingToLand = false;
             Destroy(this.gameObject.GetComponent<Rigidbody>());
+
+            this.gameObject.GetComponent<TwoHandManipulatable>().enabled = true;
         }
     }
     public void OnFocusEnter()

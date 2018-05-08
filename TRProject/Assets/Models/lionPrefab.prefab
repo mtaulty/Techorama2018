@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4306148146097368}
   - component: {fileID: 65532464769943416}
   - component: {fileID: 114415394200799524}
+  - component: {fileID: 114338834420320326}
   m_Layer: 0
   m_Name: lionPrefab
   m_TagString: Untagged
@@ -125,6 +126,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.42624927, y: 0.5845325, z: 0.7538392}
   m_Center: {x: 0.0035675466, y: -0.049459815, z: 0.1230804}
+--- !u!114 &114338834420320326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1969436654246298}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eb034688bcf84b4bb52b3a3310868c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HostTransform: {fileID: 0}
+  boundingBoxPrefab: {fileID: 114030465538688920, guid: 865a8ded6c47efd4285f04f3aebe99e9,
+    type: 2}
+  ManipulationMode: 4
+  ConstraintOnRotation: 0
+  OneHandMovement: 1
 --- !u!114 &114415394200799524
 MonoBehaviour:
   m_ObjectHideFlags: 1
